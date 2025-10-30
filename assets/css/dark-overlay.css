@@ -1,0 +1,13 @@
+/* Compact overlay for LogisticRegression HTML */
+:root{--bg:#061018;--panel:#071018;--text:#e6eef6;--accent:#3aa0ff;--code:#021018}
+html,body{background:var(--bg)!important;color:var(--text)!important;margin:0;height:100%}
+.container{max-width:1200px;margin:0 auto;display:flex;gap:20px;padding:18px;box-sizing:border-box}
+.sidebar{width:260px;background:var(--panel);padding:16px;box-shadow:2px 0 12px rgba(0,0,0,.6);position:sticky;top:0;max-height:calc(100vh - 36px);overflow:auto}
+.main{flex:1;padding:18px}
+pre,code,.code_cell .highlight pre{background:var(--code)!important;color:var(--text)!important;padding:10px;border-radius:8px}
+.jp-RenderedHTMLCommon,.jp-RenderedText,.rendered_html,.text_cell_render{color:var(--text)!important}
+a{color:var(--accent)}
+
+/* hamburger */
+.hamburger{display:none}
+@media(max-width:900px){.container{flex-direction:column;padding:12px}.hamburger{display:inline-flex;position:fixed;top:12px;right:12px;z-index:9999;padding:8px 10px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,.04);color:var(--text)}.container.sidebar-collapsed .sidebar{display:none!important}.container{padding-top:54px}}

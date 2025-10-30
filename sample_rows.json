@@ -1,0 +1,47 @@
+    [
+      {
+        "nombre": "Juan Pérez",
+        "User ID": "",
+        "Gender": "",
+        "Age": 28,
+        "EstimatedSalary": 45000,
+        "Purchased": null,
+        "Probability": null
+      },
+      {
+        "nombre": "María García",
+        "User ID": "",
+        "Gender": "",
+        "Age": 42,
+        "EstimatedSalary": 95000,
+        "Purchased": null,
+        "Probability": null
+      },
+      {
+        "nombre": "Carlos López",
+        "User ID": "",
+        "Gender": "",
+        "Age": 35,
+        "EstimatedSalary": 55000,
+        "Purchased": null,
+        "Probability": null
+      },
+      {
+        "nombre": "Ana Martínez",
+        "User ID": "",
+        "Gender": "",
+        "Age": 51,
+        "EstimatedSalary": 120000,
+        "Purchased": null,
+        "Probability": null
+      },
+      {
+        "nombre": "Pedro Rodríguez",
+        "User ID": "",
+        "Gender": "",
+        "Age": 23,
+        "EstimatedSalary": 28000,
+        "Purchased": null,
+        "Probability": null
+      }
+    ]
